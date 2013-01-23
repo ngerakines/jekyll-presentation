@@ -48,6 +48,8 @@ This is an outline for a presentation I'm giving to the office on Jekyll and how
   * Add support for different text processing
   * Add support for additional site content (localization, aggregate data, content types, etc)
   * Add support for build tools (less, minification, etc)
+  * Add support for scheduled posts and content management
+  * Add support for content deployment
 
 ## More
 
