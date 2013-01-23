@@ -1,23 +1,32 @@
 # Jekyll Presentation
 
+This is an outline for a presentation I'm giving to the office on Jekyll and how I'm using it for my personal blog. This might become a [showoff](https://github.com/schacon/showoff) kit, but no promises.
+
 ## Topics To Cover
 
 ### Jekyll
 
 * What is Jekyll?
   * Config and directory structure
+    * Git friendly, easy to take with you 
   * Templates
   * Blog posts
   * Misc files and pages
 * How is Jekyll used?
-  * Build
-  * Preview
+  * Install
+  * Build (`jekyll --no-auto`)
+  * Preview (`jekyll --server --auto`)
+* Why not XXX?
+  * There are alot of features I don't use.
+  * Static is simple (hat-tip MT)
 
 ### S3 and Cloudfront
 
 * What is S3?
 * What is Cloudfront?
 * Cost?
+* Tools
+  * s3cmd
 
 ### ngerakines.me
 
@@ -25,6 +34,7 @@
 * Sync with s3
   * Ensure files are public
   * Create cloudfront invalidation
+  * Refresh
 
 ## More
 
