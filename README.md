@@ -5,13 +5,13 @@
 ### Jekyll
 
 * What is Jekyll?
-** Config and directory structure
-** Templates
-** Blog posts
-** Misc files and pages
+  * Config and directory structure
+  * Templates
+  * Blog posts
+  * Misc files and pages
 * How is Jekyll used?
-** Build
-** Preview
+  * Build
+  * Preview
 
 ### S3 and Cloudfront
 
@@ -23,8 +23,8 @@
 
 * Build process
 * Sync with s3
-** Ensure files are public
-** Create cloudfront invalidation
+  * Ensure files are public
+  * Create cloudfront invalidation
 
 ## More
 
