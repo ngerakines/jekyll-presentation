@@ -36,6 +36,18 @@ This is an outline for a presentation I'm giving to the office on Jekyll and how
   * Create cloudfront invalidation
   * Refresh
 
+### Applicable?
+
+* CMS != end all, be all
+* Slim web services for select features (comments, forums, etc)
+* Works well with game content
+* Cache everything, serve fast, deploy globally
+
+Lots of drawbacks:
+
+* Body changes require rebuilds and redeploys
+  * Can be resolved with fragments, increases complexity
+
 ### Errata
 
 * Themes
@@ -48,7 +60,7 @@ This is an outline for a presentation I'm giving to the office on Jekyll and how
   * Add support for different text processing
   * Add support for additional site content (localization, aggregate data, content types, etc)
   * Add support for build tools (less, minification, etc)
-  * Add support for scheduled posts and content management
+  * Add support for scheduled posts, content management and content indexing
   * Add support for content deployment
 
 ## More
@@ -58,6 +70,18 @@ Jekyll links:
 * https://github.com/mojombo/jekyll
 * http://jekyllrb.com/
 * https://pinboard.in/t:jekyll/
+
+More Jekyll stuff:
+
+* http://prose.io/
+* http://octopress.org/
+
+Other static site generators:
+
+* http://ruhoh.com/
+* https://github.com/koenbok/Cactus
+* http://blog.getpelican.com/
+* http://www.subspacefield.org/~travis/static_blog_generators.html
 
 S3 links:
 
