@@ -36,6 +36,19 @@ This is an outline for a presentation I'm giving to the office on Jekyll and how
   * Create cloudfront invalidation
   * Refresh
 
+### Errata
+
+* Themes
+  * https://github.com/holman/left
+* Editors
+  * http://prose.io/
+* Plugins
+  * https://github.com/mojombo/jekyll/wiki/Plugins
+  * Add support for different template engines
+  * Add support for different text processing
+  * Add support for additional site content (localization, aggregate data, content types, etc)
+  * Add support for build tools (less, minification, etc)
+
 ## More
 
 Jekyll links:
